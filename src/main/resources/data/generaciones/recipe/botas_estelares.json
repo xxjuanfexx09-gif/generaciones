@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "E E",
+    "ENE"
+  ],
+  "key": {
+    "E": "generaciones:estrella_chispas",
+    "N": "generaciones:nucleo_5"
+  },
+  "result": {
+    "id": "generaciones:botas_estelares",
+    "count": 1
+  }
+}

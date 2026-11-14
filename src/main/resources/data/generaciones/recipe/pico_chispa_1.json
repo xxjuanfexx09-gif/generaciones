@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PNP",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "P": "generaciones:paquete_chispas",
+    "N": "generaciones:nucleo_2",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "generaciones:pico_chispa_1",
+    "count": 1
+  }
+}

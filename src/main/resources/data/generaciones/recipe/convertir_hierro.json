@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "generaciones:paquete_chispas",
+    "generaciones:paquete_chispas",
+    "minecraft:iron_ingot"
+  ],
+  "result": {
+    "id": "minecraft:iron_ingot",
+    "count": 4
+  }
+}

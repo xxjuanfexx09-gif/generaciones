@@ -1,0 +1,55 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:block_state",
+    "block_state_property": "gen",
+    "cases": [
+      {
+        "when": "2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "generaciones:block/generador_gen2"
+        }
+      },
+      {
+        "when": "3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "generaciones:block/generador_gen3"
+        }
+      },
+      {
+        "when": "4",
+        "model": {
+          "type": "minecraft:model",
+          "model": "generaciones:block/generador_gen4"
+        }
+      },
+      {
+        "when": "5",
+        "model": {
+          "type": "minecraft:model",
+          "model": "generaciones:block/generador_gen5"
+        }
+      },
+      {
+        "when": "6",
+        "model": {
+          "type": "minecraft:model",
+          "model": "generaciones:block/generador_gen6"
+        }
+      },
+      {
+        "when": "7",
+        "model": {
+          "type": "minecraft:model",
+          "model": "generaciones:block/generador_gen7"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "generaciones:block/generador_gen1"
+    }
+  }
+}

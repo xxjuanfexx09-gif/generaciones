@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "generaciones-test",
+  "version": "1.0.0",
+  "name": "Generaciones (pruebas)",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-gametest": ["com.generaciones.test.GeneracionesGameTest", "com.generaciones.test.EraGameTest"],
+    "fabric-client-gametest": ["com.generaciones.test.GeneracionesClientGameTest"]
+  }
+}

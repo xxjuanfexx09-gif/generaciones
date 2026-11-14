@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "KGK",
+    "GNG",
+    "KGK"
+  ],
+  "key": {
+    "K": "generaciones:cristal_chispas",
+    "G": "minecraft:gold_ingot",
+    "N": "minecraft:redstone_block"
+  },
+  "result": {
+    "id": "generaciones:nucleo_4",
+    "count": 1
+  }
+}

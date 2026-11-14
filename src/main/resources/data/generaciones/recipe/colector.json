@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PHP",
+    "SNS",
+    "SSS"
+  ],
+  "key": {
+    "P": "generaciones:paquete_chispas",
+    "H": "minecraft:hopper",
+    "S": "minecraft:cobblestone",
+    "N": "generaciones:nucleo_2"
+  },
+  "result": {
+    "id": "generaciones:colector",
+    "count": 1
+  }
+}

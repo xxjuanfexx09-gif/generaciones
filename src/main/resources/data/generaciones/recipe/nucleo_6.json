@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EXE",
+    "XNX",
+    "EXE"
+  ],
+  "key": {
+    "E": "generaciones:estrella_chispas",
+    "X": "minecraft:netherite_scrap",
+    "N": "minecraft:redstone_block"
+  },
+  "result": {
+    "id": "generaciones:nucleo_6",
+    "count": 1
+  }
+}

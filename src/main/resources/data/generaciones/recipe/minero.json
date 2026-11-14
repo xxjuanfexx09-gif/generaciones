@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BKB",
+    "INI",
+    "BKB"
+  ],
+  "key": {
+    "B": "minecraft:iron_block",
+    "K": "generaciones:cristal_chispas",
+    "I": "minecraft:iron_pickaxe",
+    "N": "generaciones:nucleo_4"
+  },
+  "result": {
+    "id": "generaciones:minero",
+    "count": 1
+  }
+}

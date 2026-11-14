@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "generaciones:cristal_chispas",
+    "minecraft:gold_ingot"
+  ],
+  "result": {
+    "id": "minecraft:gold_ingot",
+    "count": 4
+  }
+}

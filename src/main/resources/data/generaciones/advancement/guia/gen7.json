@@ -1,0 +1,48 @@
+{
+  "parent": "generaciones:guia/jefe",
+  "criteria": {
+    "usa": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "generaciones:generador"
+                }
+              }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "generaciones:nucleo_7"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "generaciones:generador"
+    },
+    "title": {
+      "translate": "advancements.generaciones.gen7.title"
+    },
+    "description": {
+      "translate": "advancements.generaciones.gen7.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "usa"
+    ]
+  ]
+}

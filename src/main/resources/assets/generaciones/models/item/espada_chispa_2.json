@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "generaciones:item/espada_chispa_2"
+  }
+}

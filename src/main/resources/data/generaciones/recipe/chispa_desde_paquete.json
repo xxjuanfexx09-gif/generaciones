@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "generaciones:paquete_chispas"
+  ],
+  "result": {
+    "id": "generaciones:chispa",
+    "count": 9
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "generaciones:pico_chispa_1",
+    "generaciones:nucleo_3",
+    "generaciones:cristal_chispas"
+  ],
+  "result": {
+    "id": "generaciones:pico_chispa_2",
+    "count": 1
+  }
+}

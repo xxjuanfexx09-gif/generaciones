@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "gen=1": {
+      "model": "generaciones:block/generador_gen1"
+    },
+    "gen=2": {
+      "model": "generaciones:block/generador_gen2"
+    },
+    "gen=3": {
+      "model": "generaciones:block/generador_gen3"
+    },
+    "gen=4": {
+      "model": "generaciones:block/generador_gen4"
+    },
+    "gen=5": {
+      "model": "generaciones:block/generador_gen5"
+    },
+    "gen=6": {
+      "model": "generaciones:block/generador_gen6"
+    },
+    "gen=7": {
+      "model": "generaciones:block/generador_gen7"
+    }
+  }
+}

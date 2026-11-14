@@ -1,0 +1,8 @@
+{
+  "values": [
+    "generaciones:generador",
+    "generaciones:colector",
+    "generaciones:minero",
+    "generaciones:granja"
+  ]
+}

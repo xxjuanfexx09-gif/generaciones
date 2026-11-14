@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EDK",
+    "DND",
+    "KDK"
+  ],
+  "key": {
+    "E": "generaciones:estrella_chispas",
+    "K": "generaciones:cristal_chispas",
+    "D": "minecraft:diamond",
+    "N": "minecraft:redstone_block"
+  },
+  "result": {
+    "id": "generaciones:nucleo_5",
+    "count": 1
+  }
+}

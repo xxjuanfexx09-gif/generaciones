@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "generaciones",
+	"version": "${version}",
+	"name": "Generaciones",
+	"description": "Generadores que producen Chispas solos: súbelos de Gen I a Gen VII, mejora tus herramientas por eras, construye máquinas automáticas y vence a El Eclipse. Todo en español y sin lag.",
+	"authors": [
+		"Hecho con Claude"
+	],
+	"license": "MIT",
+	"icon": "assets/generaciones/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.generaciones.Generaciones"
+		],
+		"client": [
+			"com.generaciones.client.GeneracionesClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

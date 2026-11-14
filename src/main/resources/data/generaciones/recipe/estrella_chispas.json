@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "KKK",
+    "KKK",
+    "KKK"
+  ],
+  "key": {
+    "K": "generaciones:cristal_chispas"
+  },
+  "result": {
+    "id": "generaciones:estrella_chispas",
+    "count": 1
+  }
+}

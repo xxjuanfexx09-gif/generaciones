@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "KIP",
+    "INI",
+    "PIP"
+  ],
+  "key": {
+    "K": "generaciones:cristal_chispas",
+    "P": "generaciones:paquete_chispas",
+    "I": "minecraft:iron_ingot",
+    "N": "minecraft:redstone_block"
+  },
+  "result": {
+    "id": "generaciones:nucleo_3",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "generaciones:cristal_chispas",
+    "minecraft:redstone"
+  ],
+  "result": {
+    "id": "minecraft:redstone",
+    "count": 16
+  }
+}

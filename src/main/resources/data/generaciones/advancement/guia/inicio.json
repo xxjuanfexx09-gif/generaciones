@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "inicio": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "generaciones:generador"
+    },
+    "title": {
+      "translate": "advancements.generaciones.inicio.title"
+    },
+    "description": {
+      "translate": "advancements.generaciones.inicio.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/stone"
+  },
+  "requirements": [
+    [
+      "inicio"
+    ]
+  ]
+}

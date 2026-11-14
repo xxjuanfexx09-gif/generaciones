@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "tiene": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "generaciones:generador"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "generaciones:generador"
+    },
+    "title": {
+      "translate": "advancements.generaciones.generador.title"
+    },
+    "description": {
+      "translate": "advancements.generaciones.generador.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "tiene"
+    ]
+  ],
+  "parent": "generaciones:guia/inicio"
+}

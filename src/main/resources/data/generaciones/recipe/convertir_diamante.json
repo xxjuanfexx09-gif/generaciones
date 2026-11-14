@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "generaciones:cristal_chispas",
+    "generaciones:cristal_chispas",
+    "minecraft:diamond"
+  ],
+  "result": {
+    "id": "minecraft:diamond",
+    "count": 2
+  }
+}

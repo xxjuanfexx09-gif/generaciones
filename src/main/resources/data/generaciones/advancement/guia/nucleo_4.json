@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "tiene": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "generaciones:nucleo_4"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "generaciones:nucleo_4"
+    },
+    "title": {
+      "translate": "advancements.generaciones.nucleo_4.title"
+    },
+    "description": {
+      "translate": "advancements.generaciones.nucleo_4.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "tiene"
+    ]
+  ],
+  "parent": "generaciones:guia/nucleo_3"
+}

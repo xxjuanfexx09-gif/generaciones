@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "generaciones:estelar"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "generaciones:estelar"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "generaciones:estelar"
+      }
+    ]
+  }
+}

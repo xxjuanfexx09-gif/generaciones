@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "KHK",
+    "CNC",
+    "KWK"
+  ],
+  "key": {
+    "K": "generaciones:cristal_chispas",
+    "H": "minecraft:iron_hoe",
+    "C": "minecraft:composter",
+    "W": "minecraft:water_bucket",
+    "N": "generaciones:nucleo_5"
+  },
+  "result": {
+    "id": "generaciones:granja",
+    "count": 1
+  }
+}

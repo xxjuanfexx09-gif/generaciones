@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EDE",
+    "DND",
+    "EDE"
+  ],
+  "key": {
+    "E": "generaciones:estrella_chispas",
+    "D": "minecraft:diamond_block",
+    "N": "generaciones:nucleo_6"
+  },
+  "result": {
+    "id": "generaciones:corazon_estelar",
+    "count": 1
+  }
+}

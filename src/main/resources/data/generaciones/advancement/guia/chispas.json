@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "tiene": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "generaciones:chispa",
+              "generaciones:paquete_chispas"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "generaciones:chispa"
+    },
+    "title": {
+      "translate": "advancements.generaciones.chispas.title"
+    },
+    "description": {
+      "translate": "advancements.generaciones.chispas.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "tiene"
+    ]
+  ],
+  "parent": "generaciones:guia/generador"
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "generaciones:guia/chispas",
+  "criteria": {
+    "hecho": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "generaciones:generador"
+    },
+    "title": {
+      "translate": "advancements.generaciones.varios.title"
+    },
+    "description": {
+      "translate": "advancements.generaciones.varios.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "hecho"
+    ]
+  ]
+}

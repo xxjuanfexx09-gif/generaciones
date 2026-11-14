@@ -1,0 +1,50 @@
+package com.generaciones;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.network.chat.Component;
+import net.minecraft.server.network.Filterable;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.component.WrittenBookContent;
+
+/** El libro "Manual de Generaciones" (generado desde /tmp/gen_guide.py). */
+public final class ManualBook {
+	public static final String TITLE = "Manual de Generaciones";
+	private static final String[] PAGES = {
+		"§5§lGeneraciones§r\n§8Manual del mod§r\n\nUn §lGenerador§r produce §6Chispas§r solo.\n\nTú lo vas subiendo de generación, de §lGen I§r a §lGen VII§r. Cada generación produce el triple.\n\n§8Pasa la página →§r",
+		"§5§l1. Tu Generador§r\n\nEn la mesa de crafteo:\n\n§8•§r 8 piedra (cobblestone) alrededor\n§8•§r 1 redstone en el centro\n\nColócalo y ya produce, aunque te vayas lejos.\n\n§6§l¡Haz varios!§r Cada generador produce aparte: con 4 vas 4 veces más rápido.",
+		"§5§l2. Recoger§r\n\n§lClic derecho§r sobre el generador con la mano vacía.\n\nArriba de tu barra verás la generación, la velocidad y la capacidad.\n\nGuarda hasta §l10 minutos§r de producción. Lleno, se detiene: vacíalo seguido.",
+		"§5§l3. Las chispas§r\n\nTe llegan ya agrupadas:\n\n§6Paquete§r = 9 chispas\n§6Cristal§r = 9 paquetes\n§6Estrella§r = 9 cristales\n\nPon uno solo en la mesa de crafteo para separarlo otra vez.",
+		"§5§l4. Subir de nivel§r\n\nFabrica un §lNúcleo§r:\n\n§8Esquinas:§r chispas\n§8Lados:§r 4 del material\n§8Centro:§r bloque de redstone\n\nNúcleo en la mano + §lclic derecho§r sobre el generador. Van en orden: II, III, IV, V, VI.",
+		"§5§lNúcleos§r\n\n§lII§r 4 paquetes, 4 cobre\n\n§lIII§r 1 cristal + 3 paquetes, 4 hierro\n\n§lIV§r 4 cristales, 4 oro\n\n§lV§r 1 estrella + 3 cristales, 4 diamantes\n\n§lVI§r 4 estrellas, 4 fragmentos de netherita",
+		"§5§lVelocidad§r\n§8chispas por minuto§r\n\nGen I ...... 6\nGen II ..... 18\nGen III .... 54\nGen IV ..... 162\nGen V ...... 486\nGen VI ..... 1458\nGen VII .... 4374\n\nCada subida tarda unos 6 min de producción.",
+		"§5§l5. Gastar chispas§r\n\n§8Paquete + carbón§r\n= 8 carbón\n§82 paquetes + hierro§r\n= 4 hierro\n§8Cristal + oro§r\n= 4 oro\n§8Cristal + redstone§r\n= 16 redstone\n§82 cristales + diamante§r\n= 2 diamantes",
+		"§5§lEl objetivo§r\n\nCada generación abre una §lEra§r con herramientas y máquinas nuevas.\n\nLa meta: llegar a la Era VI, vencer al §dEclipse§r y subir tu generador a la §lGen VII§r.\n\n§8Los objetos de cada era piden su núcleo.§r",
+		"§5§lEra II§r\n\n§lPico de chispa I§r\n2 paquetes + Núcleo II arriba, 2 palos.\n\n§lEspada de chispa I§r\nPaquete, Núcleo II, palo.\n\n§lColector§r: tolva + Núcleo II. Junta las chispas de los generadores pegados en el cofre de arriba.",
+		"§5§lMejorar herramientas§r\n\nHerramienta + núcleo + chispas en la mesa:\n\n§lNivel 2§r Núcleo III + 1 cristal\n§lNivel 3§r Núcleo IV + 2 cristales\n§lNivel 4§r Núcleo V + 1 estrella\n§lNivel 5§r Núcleo VI + 2 estrellas",
+		"§5§lPoderes del pico§r\n\n§lNv 2§r funde al picar: el hierro, oro y cobre salen en lingote.\n\n§lNv 3§r pica en §l3×3§r. Agáchate para picar solo uno.\n\n§lNv 4§r velocidad de netherita.\n\n§lNv 5§r irrompible.\n\nSe reparan con paquetes.",
+		"§5§lEra IV · Minero§r\n\nHierro, pico y Núcleo IV.\n\nPégale un §lgenerador§r al lado y un §lcofre§r encima. Excava un hoyo de 5×5 hasta el fondo y gasta 1 chispa por bloque.\n\nClic derecho: ver cómo va.",
+		"§5§lEra V · Granja§r\n\nAzada, compostadores, cubo de agua y Núcleo V.\n\nCosecha los cultivos maduros en 9×9 alrededor y los vuelve a sembrar. Lo cosechado va al §lcofre§r de encima.",
+		"§5§lEra VI · Jefe final§r\n\n§dCorazón Estelar§r: 4 estrellas, 4 bloques de diamante, Núcleo VI.\n\nClic derecho en el suelo: aparece §5§lEl Eclipse§r. Dispara rayos y golpea con sus manos; después del golpe §ecae cansado§r: ¡pégale! A media vida entra en §cfuria§r y llueven cristales.",
+		"§5§lArmadura Estelar§r\n\nEra V. Cada pieza lleva un §lNúcleo V§r y estrellas (en la forma de la armadura normal).\n\nMás fuerte que la netherita.\n\n§dSet completo:§r el Eclipse te hace la §lmitad de daño§r y no te empuja.",
+		"§5§lGen VII§r\n\nAl vencerlo suelta el §dNúcleo Estelar§r y 3 estrellas.\n\nÚsalo en un generador Gen VI: sube a §lGen VII§r, 4374 chispas por minuto.\n\n§6§l¡Has completado Generaciones!§r",
+		"§5§lConsejos§r\n\n§8•§r Si rompes el generador, conserva su generación y suelta lo guardado.\n\n§8•§r Abre los logros (tecla §lL§r): la pestaña §5Generaciones§r te dice el siguiente paso.\n\n§8•§r ¿Perdiste el libro? Libro + chispa = otro manual."
+	};
+
+	public static ItemStack create() {
+		List<Filterable<Component>> pages = new ArrayList<>();
+		for (String page : PAGES) {
+			pages.add(Filterable.passThrough(Component.literal(page)));
+		}
+		ItemStack book = new ItemStack(Items.WRITTEN_BOOK);
+		book.set(DataComponents.WRITTEN_BOOK_CONTENT,
+				new WrittenBookContent(Filterable.passThrough(TITLE), "Generaciones", 0, pages, true));
+		return book;
+	}
+
+	private ManualBook() {
+	}
+}

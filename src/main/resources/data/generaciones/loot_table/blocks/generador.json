@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "generaciones:generador",
+          "functions": [
+            {
+              "function": "minecraft:copy_state",
+              "block": "generaciones:generador",
+              "properties": [
+                "gen"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

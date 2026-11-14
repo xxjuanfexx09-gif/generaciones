@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": "generaciones:chispa"
+  },
+  "result": {
+    "id": "generaciones:paquete_chispas",
+    "count": 1
+  }
+}
